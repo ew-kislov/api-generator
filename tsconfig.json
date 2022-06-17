@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "es2016",
+        "module": "commonjs",
+        "lib": [
+            "dom",
+            "es6"
+        ],
+        "declaration": true,
+        "outDir": "dist",
+        "removeComments": true,
+        "strict": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "forceConsistentCasingInFileNames": true,
+        "experimentalDecorators": true,
+        "strictPropertyInitialization": false,
+        "emitDecoratorMetadata": true,
+        "noImplicitAny": false
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
